@@ -1,0 +1,34 @@
+GET http://localhost:3000/transactions/
+
+###
+
+GET http://localhost:3000/transactions/ff2f321d-5c74-4e14-9b3d-b73cfcb7c486
+
+###
+
+POST http://localhost:3000/transactions/
+Content-Type: application/json
+
+{
+    "amount": "100",
+    "status": "pending",
+    "credit_card_number": "1234567890123456",
+    "credit_card_name": "Monteiro Lobato",
+    "credit_card_month": "12",
+    "credit_card_year": "2021",
+    "credit_card_cvv": "123"
+}
+
+###
+
+PATCH http://localhost:3000/transactions/ff2f321d-5c74-4e14-9b3d-b73cfcb7c486
+Content-Type: application/json
+
+{
+    "amount": "2099",
+    "status": "paid"
+}
+
+###
+
+DELETE http://localhost:3000/transactions/26a26996-d45f-4600-b6dc-3720f6d611f0
