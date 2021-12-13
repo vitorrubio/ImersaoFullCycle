@@ -4,6 +4,9 @@
 
 ### Colinhas
 
+- criar um cluster do kubernetes com kind especificando uma imagem 
+`kind create cluster --name desafio3 --image kindest/node:v1.17.17`
+
 - Criar um cluster do kubernetes dando nome e especificando versão da imagem
 `kind create cluster --name desafio3 --image kindest/node:v1.17.17 --config cluster-config.yaml`
 
