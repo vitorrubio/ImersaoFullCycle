@@ -11,24 +11,18 @@ Content-Type: application/json
 
 {
     "amount": "100",
-    "status": "pending",
-    "credit_card_number": "1234567890123456",
-    "credit_card_name": "Monteiro Lobato",
-    "credit_card_month": "12",
-    "credit_card_year": "2021",
-    "credit_card_cvv": "123"
+    "account_id": "1"
 }
 
 ###
 
-PATCH http://localhost:3000/transactions/03a52920-0032-4eed-8055-ae9d334c5a55
+PATCH http://localhost:3000/transactions/4168acb0-880a-4208-b3d7-6afdca573cc3
 Content-Type: application/json
 
 {
-    "amount": "2099",
-    "status": "paid"
+    "amount": "2099"
 }
 
 ###
 
-DELETE http://localhost:3000/transactions/03a52920-0032-4eed-8055-ae9d334c5a55
+DELETE http://localhost:3000/transactions/20cdd924-2f06-4ffb-a358-11ecd0a9a27d
