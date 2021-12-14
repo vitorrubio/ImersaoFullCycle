@@ -15,3 +15,31 @@ minhas notas pessoais do curso full cycle
 - [Next.js e API Routes para integrações com outras APIs](https://www.youtube.com/watch?v=mhnoux6J2g0)
 - [Orquestrando containers com Kubernetes do Zero](https://www.youtube.com/watch?v=tlqWYH13nOg)
 
+
+### Conteudos adicionais
+- [Como funciona o RabbitMQ](https://www.youtube.com/watch?v=2YWHtbZJ0QI)
+- [Sistemas Monolíticos vs Microsserviços](https://www.youtube.com/watch?v=UgmRiqL0sbA)
+- [3 erros que você comete com DDD](https://www.youtube.com/watch?v=mKqGrivdsuQ)
+- [Teste de carga com Kubernetes](https://www.youtube.com/watch?v=AYAE1GeO6Cs)
+- [Introdução ao Apache Kafka](https://www.youtube.com/watch?v=o5yviW6QSrE&list=PL5aY_NrL1rjt_AZxj11kQjiTNLGg4ZaZA&index=3)
+
+### Lives 
+- [Mercado Livre: Tecnologias, Microsserviços e Arquitetura a prova de falhas](https://www.youtube.com/watch?v=MiukifE3fSc)
+- [Do monolito aos microsserviços no Itaú: Erros e acertos](https://www.youtube.com/watch?v=xwQn9O1xWFw&feature=emb_imp_woyt)
+- [API Gateways na LuizaLabs](https://www.youtube.com/watch?v=xwQn9O1xWFw&feature=emb_imp_woyt)
+- [Case Full Cycle: Desafios da construção de um microsserviço](https://www.youtube.com/watch?v=3aTb8a_F4dQ&feature=emb_imp_woyt)
+- [RabbitMQ na Prática](https://www.youtube.com/watch?v=3aTb8a_F4dQ)
+- [LuizaLabs: Documentando arquiteturas na prática com C4 model](https://www.youtube.com/watch?v=aJZPKyElP6A&feature=emb_imp_woyt)
+- [Testes automatizados do jeito certo](https://www.youtube.com/watch?v=M46XisdGXJA&feature=emb_imp_woyt)
+- [Observabilidade com Elastic, Prometheus e Grafana](https://www.youtube.com/watch?v=MdkkPYZD86Y)
+
+- [Docker: 3 Formas de colocar sua aplicação em produção](https://www.youtube.com/watch?v=2Rc7S1ixrl0)
+
+### Aulas 
+- [Aula 01](https://imersao.fullcycle.com.br/aula/aula-1/)
+- [Aula 02](https://imersao.fullcycle.com.br/aula/apache-kafka-e-comunicacao-assincrona/)
+- [Aula 03](https://imersao.fullcycle.com.br/aula/microsservico-nestjs-apis-e-publicacao-assincrona/)
+- [Aula 04](https://imersao.fullcycle.com.br/aula/frontend-moderno-e-realtime-com-nextjs/)
+- [Aula 05](https://imersao.fullcycle.com.br/aula/orquestracao-de-containers-com-kubernetes/)
+
+
