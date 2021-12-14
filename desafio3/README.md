@@ -1,4 +1,4 @@
-# Desafio 3
+# Imersão Full Cycle Desafio 3
 
 ## Cluster Kubernetes com kind e imagem de nginx
 
