@@ -51,11 +51,11 @@ minhas notas pessoais do curso full cycle
 - [Observabilidade com Elastic, Prometheus e Grafana](https://www.youtube.com/watch?v=MdkkPYZD86Y)
 
 ### Aulas 
-- [Aula 01](https://imersao.fullcycle.com.br/aula/aula-1/)
-- [Aula 02](https://imersao.fullcycle.com.br/aula/apache-kafka-e-comunicacao-assincrona/)
-- [Aula 03](https://imersao.fullcycle.com.br/aula/microsservico-nestjs-apis-e-publicacao-assincrona/)
-- [Aula 04](https://imersao.fullcycle.com.br/aula/frontend-moderno-e-realtime-com-nextjs/)
-- [Aula 05](https://imersao.fullcycle.com.br/aula/orquestracao-de-containers-com-kubernetes/)
+- [Aula 01 - Criando uma aplicação GO para processar transações](https://imersao.fullcycle.com.br/aula/aula-1/)
+- [Aula 02 - Apache Kafka e comunicação assíncrona](https://imersao.fullcycle.com.br/aula/apache-kafka-e-comunicacao-assincrona/) - conecta a aplicação GO da aula 1 com kafka
+- [Aula 03 - microsserviço nestjs e comunicação assíncrona com o kafka](https://imersao.fullcycle.com.br/aula/microsservico-nestjs-apis-e-publicacao-assincrona/)
+- [Aula 04 - frontend no nextjs](https://imersao.fullcycle.com.br/aula/frontend-moderno-e-realtime-com-nextjs/)
+- [Aula 05 - orquestração de containers com kubernetes](https://imersao.fullcycle.com.br/aula/orquestracao-de-containers-com-kubernetes/)
 
 
 
