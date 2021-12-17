@@ -1,16 +1,17 @@
-# CursoFullCycle
+# Imersão Curso FullCycle
 minhas notas pessoais do curso full cycle
+
+## Vídeos e recursos
 
 
 ### Assistir 
 - [Server Side Rendering com Next.js](https://www.youtube.com/watch?v=T9IAlagTcJk)
 - [Apache kafka do Zero](https://www.youtube.com/watch?v=2uCEww7x4rs)
 - [Kafka com Nest.js no mundo dos Microsserviço](https://www.youtube.com/watch?v=gMHn-itg3zk)
-- [Clean Architecture](https://www.youtube.com/watch?v=YaGVURjB33I)
 - [Next.js e API Routes para integrações com outras APIs](https://www.youtube.com/watch?v=mhnoux6J2g0)
 - [Orquestrando containers com Kubernetes do Zero](https://www.youtube.com/watch?v=tlqWYH13nOg)
 - [Docker: 3 Formas de colocar sua aplicação em produção](https://www.youtube.com/watch?v=2Rc7S1ixrl0)
-- [Aprenda a trabalhar com ponteiros usando Golang](https://www.youtube.com/watch?v=-FiBp1OeZF0)
+
 
 ### Link do curso e comunidade
 - [Link do curso](https://imersao.fullcycle.com.br/evento/)
@@ -59,3 +60,17 @@ minhas notas pessoais do curso full cycle
 
 
 
+
+
+## Diretórios e arquivos desse repositírio
+
+
+### Esquenta
+
+- esquentafc-golang 
+Aplicação em golang que simula um processador de transações de um e-commerce e grava os dados em um banco sqlite3. Usa conceitos de Clean Architeture
+
+### Aulas
+
+
+### Desafios
