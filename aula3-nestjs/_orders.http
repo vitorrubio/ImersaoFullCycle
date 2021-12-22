@@ -1,0 +1,22 @@
+GET HTTP://localhost:3000/orders/
+
+###
+
+POST HTTP://localhost:3000/orders/
+Content-Type: application/json
+x-token:
+
+{
+    "amount": "100",
+    "credit_card_number": "1234567890123456",
+    "credit_card_name": "John Doe"
+}
+
+###
+
+PATCH HTTP://localhost:3000/orders/20efa6fb-08a4-486a-b620-73704ca40f65
+Content-Type: application/json
+
+{
+    "amount": "5"
+}
