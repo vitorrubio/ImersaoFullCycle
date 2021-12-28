@@ -34,4 +34,5 @@ lerna-debug.log*
 !.vscode/launch.json
 !.vscode/extensions.json
 
-/.docker/dbdata
+#ignora os dados do mysql
+dbdata/

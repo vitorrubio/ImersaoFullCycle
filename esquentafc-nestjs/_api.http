@@ -1,0 +1,36 @@
+GET http://localhost:3000/api/
+
+###
+
+GET http://localhost:3000/teste/dfdfdf
+
+###
+
+GET http://localhost:3000/orders/
+
+###
+
+GET http://localhost:3000/orders/f840c452-1b00-4fd5-8897-e773f54069b8
+
+###
+
+POST http://localhost:3000/orders/
+Content-Type: application/json
+
+{
+    "amount": "100"
+}
+
+###
+
+PATCH http://localhost:3000/orders/f840c452-1b00-4fd5-8897-e773f54069b8
+Content-Type: application/json
+
+{
+    "amount": "2099",
+    "status": "paid"
+}
+
+###
+
+DELETE http://localhost:3000/orders/e5994052-050c-417b-9b0a-64f9a8485de1
