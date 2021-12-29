@@ -2,13 +2,14 @@ version: '3'
 
 services:
   app:
-    build: ./.docker/node
+    build: .
     container_name: app
     entrypoint: npm run start:dev
     ports:
       - "3000:3000"
     volumes:
       - ./nestjs-api:/home/node/app
+      - /home/node/app/node_modules
 
   db:
     build: ./.docker/mysql
