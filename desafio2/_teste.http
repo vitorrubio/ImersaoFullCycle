@@ -2,7 +2,7 @@ GET http://localhost:3000/transactions/
 
 ###
 
-GET http://localhost:3000/transactions/03a52920-0032-4eed-8055-ae9d334c5a55
+GET http://localhost:3000/transactions/d39317ec-641b-4627-b8a5-ec6a8c447c77
 
 ###
 
@@ -16,7 +16,7 @@ Content-Type: application/json
 
 ###
 
-PATCH http://localhost:3000/transactions/548d07b2-57ad-4b5f-83fd-6bb42f3e113f
+PATCH http://localhost:3000/transactions/d39317ec-641b-4627-b8a5-ec6a8c447c77
 Content-Type: application/json
 
 {
@@ -25,4 +25,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3000/transactions/20cdd924-2f06-4ffb-a358-11ecd0a9a27d
+DELETE http://localhost:3000/transactions/d39317ec-641b-4627-b8a5-ec6a8c447c77

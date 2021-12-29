@@ -2,19 +2,27 @@ version: '3'
 
 services:
   app:
-    build: .
+    build: 
+      context: .
+      dockerfile: ./Dockerfile.app
+    container_name: app
+    #init: true
     entrypoint: npm run start:dev
     ports:
       - "3000:3000"
     volumes:
       - .:/home/node/app
+      - /home/node/app/node_modules
 
   db:
-    build: ./.docker/mysql
+    build: 
+      context: .
+      dockerfile: ./Dockerfile.database    
+    container_name: db
     restart: always
     tty: true
     volumes:
-      - ./.docker/dbdata:/var/lib/mysql
+      - ./.dbdata:/var/lib/mysql
     environment:
       - MYSQL_ROOT_PASSWORD=root
       - MYSQL_DATABASE=fin
