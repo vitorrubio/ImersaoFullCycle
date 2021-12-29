@@ -12,7 +12,7 @@ services:
       - "3000:3000"
     volumes:
       - .:/home/node/app
-      - /home/node/app/node_modules
+      - /home/node/app/node_modules #isso aqui é necessário para usar o mesmo docker-compose e dockerfile em prod e em dev. Com isso é incluido o node_modules criado pelo npm install mesmo depois de criar um volume sem o node_modules.
 
   db:
     build: 
